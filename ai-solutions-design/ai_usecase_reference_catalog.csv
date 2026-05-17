@@ -1,0 +1,11 @@
+domain,business_problem,data_required,ai_task_type,candidate_model,evaluation_metrics,responsible_ai_risk
+Insurance,Claim fraud detection,Structured claim records + claim documents,Anomaly detection / Classification,Feed-forward neural network or gradient boosting,"Precision, recall, fraud catch rate","False fraud flag, unfair treatment of genuine claimants"
+Healthcare,Medical image triage,X-ray or scan images,Image classification,CNN or transfer learning model,"Recall, sensitivity, review time reduction","Incorrect diagnosis, privacy risk, need human doctor review"
+Retail,Product image search,Product catalog images,Image classification / Similarity search,CNN embeddings / transfer learning,"Top-k accuracy, conversion rate","Wrong recommendations, biased catalog visibility"
+Telecom,Customer churn prediction,"Usage, billing, support tickets",Classification,Feed-forward neural network,"AUC, recall, retention uplift","Targeting customers unfairly, privacy concerns"
+Finance,Suspicious transaction detection,Transaction history,Anomaly detection / Classification,Neural network or autoencoder,"Precision, recall, investigation efficiency",False positives blocking legitimate users
+Manufacturing,Visual defect inspection,Factory product images,Image classification,CNN,"Accuracy, defect detection recall, inspection time saved","Missed defects, camera quality issues"
+Agriculture,Crop disease detection,Leaf images and crop metadata,Image classification,CNN or transfer learning,"Accuracy, field validation rate",Misclassification affecting pesticide usage
+Education,Student dropout risk,"Attendance, assignment, assessment data",Classification,Feed-forward neural network,"Recall, intervention success rate","Label bias, over-monitoring students"
+Transportation,Traffic congestion prediction,Time series sensor data,Sequence prediction,LSTM / Transformer,"MAE, congestion alert accuracy",Poor predictions causing bad routing
+Customer Support,Ticket sentiment routing,Support chat/email text,Text classification,LSTM / Transformer model,"F1-score, resolution time","Misrouting urgent issues, language bias"
